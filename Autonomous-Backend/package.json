@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cores": "^0.8.5",
+    "cors": "^2.8.5",
+    "expres": "^0.0.5",
+    "express": "^4.21.0",
+    "gitignore": "^0.7.0",
+    "nodemon": "^3.1.7",
+    "openai": "^4.65.0",
+    "ws": "^8.18.0"
+  },
+  "name": "gaina",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
