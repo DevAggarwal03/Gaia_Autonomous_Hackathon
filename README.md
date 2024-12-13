@@ -1,12 +1,12 @@
 # Web3TV
 
-Web3TV is a decentralized movie platform built on the **Sepolia Chain**, developed during the **Gaia Autonomous Hackathon**. The platform offers a secure and fair way to upload, purchase, and watch movies using blockchain and NFT technology. 
+Web3TV is a decentralized movie platform built on the **Base Sepolia Chain**, developed during the **Gaia Autonomous Hackathon**. The platform offers a secure and fair way to upload, purchase, and watch movies using blockchain and NFT technology. 
 
 ## Key Features
 
 ### Admin Side
 1. **Movie Encryption & Upload:** Movies are encrypted using **CryptoJS** for added security and uploaded to the **IPFS** network.
-2. **Blockchain Integration:** Metadata and movie details are stored on the **Sepolia Chain** after a transaction confirmation via MetaMask.
+2. **Blockchain Integration:** Metadata and movie details are stored on the **Base Sepolia Chain** after a transaction confirmation via MetaMask.
 
 ### User Side
 1. **NFT-based Ownership:** Users can purchase movies and receive an **NFT** as proof of ownership, enabling access to the content.
@@ -20,7 +20,7 @@ Web3TV is a decentralized movie platform built on the **Sepolia Chain**, develop
 ## Progress During Hackathon
 
 ### Week 1: Ideation and Setup
-- Defined the project concept and finalized the use of **Sepolia Chain** and **IPFS**.
+- Defined the project concept and finalized the use of **Base Sepolia Chain** and **IPFS**.
 - Planned the core functionalities for both admin and user sides.
 
 ### Week 2: Admin Side Development
@@ -41,7 +41,7 @@ Web3TV is a decentralized movie platform built on the **Sepolia Chain**, develop
 ## How It Works
 1. **Uploading a Movie:**
    - Admin encrypts the movie with **CryptoJS** and uploads it to **IPFS**.
-   - MetaMask is used to confirm the transaction, and the movie details are stored on the **Sepolia Chain**.
+   - MetaMask is used to confirm the transaction, and the movie details are stored on the **Base Sepolia Chain**.
 
 2. **Purchasing a Movie:**
    - Users can browse movies and purchase them using blockchain payments.
@@ -55,7 +55,7 @@ Web3TV is a decentralized movie platform built on the **Sepolia Chain**, develop
    - Users can interact with the **Gaia.ai-powered chatbot** to get detailed information about movies, including genres, cast, and ratings.
 
 ## Tech Stack
-- **Blockchain:** Sepolia Chain
+- **Blockchain:** Base Sepolia Chain
 - **Storage:** IPFS
 - **Encryption:** CryptoJS
 - **Payments & Wallet:** MetaMask
@@ -74,7 +74,7 @@ Web3TV is a decentralized movie platform built on the **Sepolia Chain**, develop
    ```bash
    npm start
    ```
-4. Ensure you have MetaMask installed and connected to the Sepolia testnet.
+4. Ensure you have MetaMask installed and connected to the Base Sepolia testnet.
 
 ## Future Goals
 - Launch the content authenticity protocol.
