@@ -4,7 +4,7 @@ import {
   RainbowKitProvider,
 } from '@rainbow-me/rainbowkit';
 import { WagmiProvider } from 'wagmi';
-import { mantleSepoliaTestnet } from 'viem/chains';
+import { baseSepolia } from 'viem/chains';
 import {
   QueryClientProvider,
   QueryClient,
@@ -16,7 +16,7 @@ import React from 'react';
 const config = getDefaultConfig({
   appName: 'NeoX',
   projectId: '121',
-  chains: [mantleSepoliaTestnet],
+  chains: [baseSepolia],
   ssr: false,
 });
 
